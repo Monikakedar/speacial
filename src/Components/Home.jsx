@@ -82,13 +82,13 @@ Kalpesh, Happy Birthday to you
         <div className="picture-gallery">
           <h2>Our Pictures</h2>
           <div className="pictures">
-            <img src={mk2} alt="Picture 1" />
-            <img src={kalpu2} alt="Picture 2" />
-            <img src={mk1} alt="Picture 3" />
-            <img src={mk3} alt="Picture 4" />
-            <img src={mk4} alt="Picture 5" />
-            <img src={mk5} alt="Picture 6" />
-            <img src={mk6} alt="Picture 7" />
+            <img src={mk2} alt="sunset" />
+            <img src={kalpu2} alt="sunrise" />
+            <img src={mk1} alt="monika" />
+            <img src={mk3} alt="kalpesh" />
+            <img src={mk4} alt="mona" />
+            <img src={mk5} alt="bhumi" />
+            <img src={mk6} alt="pathare" />
           </div>
         </div>
       </div>
