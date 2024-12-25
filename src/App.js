@@ -25,7 +25,7 @@ const Proposal = () => {
       {/* Add an image to the Proposal page */}
       <img 
         src={mk9} 
-        alt="Love Proposal" 
+        alt="Love" 
         style={{ width: '300px', height: 'auto', margin: '20px 0' }} 
       />
 
