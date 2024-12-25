@@ -18,7 +18,7 @@ const Home = () => {
       <div className="vcontainer">
         {/* Container for image and text */}
         <div className="image-text-container">
-          <img src={mk7} alt="Picture 1" className="image-side" />
+          <img src={mk7} alt="Picture 1" className="cat" />
           <div className="text-side">
             <h4 className="h4-tag">My Hero</h4>
             <p className="hero-text">
@@ -56,7 +56,7 @@ Kalpesh, Happy Birthday to you
               Hum tum kitane paas hai
 
           </p>
-          <img src={mk8} alt="Picture 1" className="mk8-image" />
+          <img src={mk8} alt="dog" className="mk8-image" />
           <h5 className="head-tag">My Support System</h5>
         </div>
       </div>
