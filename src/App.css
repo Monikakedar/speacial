@@ -1,0 +1,181 @@
+/* App.css */
+
+/* General layout */
+
+
+/* General layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f0f0f0;
+  padding: 20px;
+  position: relative;
+}
+
+/* Video container */
+.vcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Image and text container */
+.image-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-right: 600px;
+
+}
+
+/* Image styling */
+.image-side {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Text styling */
+.text-side {
+  max-width: 500px;
+  text-align: left;
+}
+
+.h4-tag {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-text {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Video styling */
+.video {
+  width: 600px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Left-aligned text and right-aligned image container */
+.image-left-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 350px;
+}
+
+.mk8-image {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.mk8-text {
+  font-size: 20px;
+  color: #666;
+  max-width: 300px;
+  margin-right: 50px; /* Space between text and image */
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/* Styling for "My Support System" text */
+.head-tag {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Wishes Section */
+.content-container {
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.wishes h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+.wishes p {
+  font-size: 1.2em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Picture Gallery Section */
+.picture-gallery {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.picture-gallery h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pictures img {
+  max-width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.pictures img:hover {
+  transform: scale(1.05);
+}
+
