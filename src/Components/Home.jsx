@@ -18,23 +18,17 @@ const Home = () => {
       <div className="vcontainer">
         {/* Container for image and text */}
         <div className="image-text-container">
-          <img src={mk7} alt="cat" className="image-side" />
+          <img src={mk7} alt="cat" className="image-side"/>
           <div className="text-side">
             <h4 className="h4-tag">My Hero</h4>
             <p className="hero-text">
-            Baar baar din ye aaye,
-
-baar baar dil ye gaaye
-
-Tu jiye hazaaron saal,
-
-ye meri hai aarzoo
-
-Happy Birthday to you -
-
-Happy Birthday to you,
-
-Kalpesh, Happy Birthday to you
+              Baar baar din ye aaye,
+              baar baar dil ye gaaye
+              Tu jiye hazaaron saal,
+              ye meri hai aarzoo
+              Happy Birthday to you -
+              Happy Birthday to you,
+              Kalpesh, Happy Birthday to you
             </p>
           </div>
         </div>
@@ -45,18 +39,17 @@ Kalpesh, Happy Birthday to you
           {/* Left side content for paragraph */}
           <p className="mk8-text">
             Bade Acchee lagte hai<br />
-              Kyaa ????<br />
-              Yeh Dharti ,yeh nadiyaa, yeh rainaa aur ?<br />
-              Aur tum<br />
-              Bade Acchee lagte hai<br />
-              Yeh Dharti ,yeh nadiyaa, yeh rainaa aur ?<br />
-              Aur tum mm mmmm<br />
-              O o O MAjhi re<br />
-              Jaiyo piya ke desh<br />
-              Hum tum kitane paas hai
-
+            Kyaa ????<br />
+            Yeh Dharti ,yeh nadiyaa, yeh rainaa aur ?<br />
+            Aur tum<br />
+            Bade Acchee lagte hai<br />
+            Yeh Dharti ,yeh nadiyaa, yeh rainaa aur ?<br />
+            Aur tum mm mmmm<br />
+            O o O MAjhi re<br />
+            Jaiyo piya ke desh<br />
+            Hum tum kitane paas hai
           </p>
-          <img src={mk8} alt="money" className="mk8-image" />
+          <img src={mk8} alt="Kalpesh's support system" className="mk8-image" />
           <h5 className="head-tag">My Support System</h5>
         </div>
       </div>
@@ -82,13 +75,13 @@ Kalpesh, Happy Birthday to you
         <div className="picture-gallery">
           <h2>Our Pictures</h2>
           <div className="pictures">
-            <img src={mk2} alt="sunset" />
-            <img src={kalpu2} alt="sunrise" />
-            <img src={mk1} alt="monika" />
-            <img src={mk3} alt="kalpesh" />
-            <img src={mk4} alt="mona" />
-            <img src={mk5} alt="bhumi" />
-            <img src={mk6} alt="pathare" />
+            <img src={mk2} alt="Sunset" />
+            <img src={kalpu2} alt="Kalpesh's photo" />
+            <img src={mk1} alt="Monika" />
+            <img src={mk3} alt="Kalpesh at event" />
+            <img src={mk4} alt="Mona's photo" />
+            <img src={mk5} alt="Bhumi's photo" />
+            <img src={mk6} alt="Pathare family" />
           </div>
         </div>
       </div>
