@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Componets/Home'; // Assuming your Home component is in the same folder
-import happyBirthdaySong from '../src/Images/birthdaySong.mp3';  // Path to the audio file in src folder
+import Home from './Components/Home'; // Assuming your Home component is in the same folder
 import mk9 from '../src/Images/mk9.jpg';
 
 const Proposal = () => {
